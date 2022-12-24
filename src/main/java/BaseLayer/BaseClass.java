@@ -21,6 +21,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.manage().deleteAllCookies();
 		driver.get("https://www.facebook.com/reg");
+//test commit
 
 	}
 }
